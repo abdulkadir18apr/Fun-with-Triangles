@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle-Quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav >
+        <ul class="nav-list">
+            <li><a href="/index.html"  class=" nav-item">Is Triangle</a></li>
+            <li><a href="#" class="nav-item active">Quiz</a></li>
+            <li><a href="hypotaneus.html" class="nav-item">Check Hypotaneus</a></li>
+            <li><a href="Area.html" class="nav-item">Area of triangle</a></li>
+        </ul>
+    </nav>
+
+    <h1>Triangle Quiz</h1>
+    <div class="inputs">
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is third angle of a triangle where ange1 = 45° and angle2 = 45° </p>
+                <label ><input type="radio" value="45"  name="question1">45°</label>
+                <label ><input type="radio"  name="question1" value="90">90°</label>
+                <label><input type="radio" name="question1" value="12" id="">12°</label>
+            </div>
+
+            <div class="question-container offwhite">
+                <p>What is type of triangle if all three sides of triangle is equal? </p>
+                <label><input type="radio" name="question2"   value="isosceles Triangle"  >isosceles Triangle</label>
+                <label><input type="radio"  name="question2" value="scalene Triangle">scalene Triangle </label>
+                <label><input type="radio" name="question2" value="equilateral-Triangle">equilateral Triangle</label>
+            </div>
+
+            <div class="question-container">
+                <p>wat the triangle is called if it has 90° angle</p>
+                <label ><input type="radio"  name="question3" value="right-angled Triangle" >right angled Triangle</label>
+                <label><input type="radio"  name="question3" value="scalene-Triangle"/>scalene Triangle </label>
+                <label><input type="radio" name="question3" value="equilateral-Triangle">equilateral Triangle</label>
+            </div>
+
+        </form>
+    </div>
+
+    <button id="submit-answer-btn" class="submit-btn">Submit Answers</button>
+
+    <div id="output">
+        Your Scores Will Be Shown Here.......
+
+    </div>
+
+    <script src="quiz.js"></script>
+    
+</body>
+</html>
